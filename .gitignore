@@ -1,0 +1,58 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+# Build and Dependency Directories
+node_modules/
+dist/
+build/
+target/
+out/
+bin/
+lib/
+
+# Compiled Files
+*.class
+*.o
+*.pyc
+__pycache__/
+
+# Log Files
+*.log
+logs/
+npm-debug.log*
+
+# Environment Files
+.env
+.env.local
+.env.*
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Project-specific cache
+.cache/
+.pytest_cache/
+coverage/
+
+/.env
+/.idx
+/.vscode
+/README.md
+/node_modules
+/output.png
+/result.png
+.vercel

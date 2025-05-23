@@ -160,7 +160,7 @@ function ImageAI() {
             placeholder="생성할 이미지의 키워드를 작성하세요"
           />
           <div id="button-group">
-            <button className="genbtn" onClick={generateImage}>프롬프트로 이미지 생성</button>
+            <button className="genbtn" onClick={generateImage}>키워드로 이미지 생성</button>
             <button onClick={handleDownload}>결과 저장</button>
           </div>
           {/* 이미지 보관함 */}
